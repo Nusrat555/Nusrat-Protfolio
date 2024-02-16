@@ -1,0 +1,95 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .menu-top-area .navbar-nav li a {
+        padding: 30px 11px;
+        font-size: 12px;
+    }
+    .menu-bg .navbar-nav li a {
+        padding: 30px 11px;
+        font-size: 12px;
+    }
+    .single-service {
+        padding: 0px 140px;
+        text-align: center;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .menu-bg .navbar-default .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background: transparent;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border: none;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+        margin-top: -30px;
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .navbar-default .navbar-toggle {
+        border: none;
+        margin-top: 20px;
+        margin-right: 15px;
+    }
+    .menu-top-area .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .menu-bg .navbar-nav li a {
+        padding: 11px 15px;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+    .navbar-toggle {
+        margin-top: 0px;
+    }
+    .navbar-collapse {
+        background: rgba(0, 0, 0, .9);
+    }
+    .menu-bg .navbar-collapse {
+        background: rgba(0, 0, 0, .9);
+    }
+    .header-text h2 {
+        font-size: 22px;
+    }
+    .section-title h2 {
+        font-size: 22px;
+    }
+    .single-testimonial {
+        padding: 0;
+    }
+    .about-text h2 {
+        font-size: 22px;
+    }
+    .single-service {
+        margin-top: 40px;
+    }
+    .testimonial-list {
+        margin-top: 0px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
